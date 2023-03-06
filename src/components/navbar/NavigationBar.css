@@ -1,0 +1,10 @@
+Nav a {
+    font-family: 'Tajawal', sans-serif;
+    text-decoration: none;
+    font-weight:700 ;
+    font-size: 20px;
+    color: var(--color-background);
+}
+Nav a.active {
+    color: var(--color-orange);
+}

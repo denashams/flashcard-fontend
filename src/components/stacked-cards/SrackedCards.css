@@ -1,0 +1,40 @@
+.swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-color: var(--color-orange);
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: var(--color-primary);
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: var(--color-orange);
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: var(--color-primary);
+}
+
+.swiper-slide:nth-child(5n) {
+  background-color: var(--color-orange);
+}
+
+.swiper-slide:nth-child(6n) {
+  background-color: var(--color-primary);
+}
+
+
