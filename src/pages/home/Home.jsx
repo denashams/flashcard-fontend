@@ -56,22 +56,22 @@ export default function Home() {
       </div>
       <h2 className="mt-5">پادکست</h2>
       <section>
-        <div className="container item-container mt-5 p-5">
-          <div className="row">
-            <div className="col-md">
-              <MdKeyboardVoice className="mic-icon" />
-            </div>
-            <div className="col-md item ">
-              <p>
+        <div className="container mt-4">
+          
+              <p className="podcast-description">
                 مان‌ها و دیگر سازه‌های کالبدی است. معماری و دیگر رشته‌های علمی
                 طراحی در پیوند با آن، مانند طراحی شهری، معماری منظر، طراحی داخلی
                 و … در کنار هم، طراحی محیط را به‌وجود می‌آورند. گستردگی و
                 گوناگونی بوجودآمده در آثار معماری معاصر و ناسازگاری که گاهی،
                 میان آنها دیده می‌شود؛
               </p>
-              <button className="button-bold mt-4">ورود</button>
+            <div>
+              <MdKeyboardVoice className="mic-icon" />
             </div>
-          </div>
+            
+              <button className="button-bold mt-4">ورود</button>
+            
+          
         </div>
       </section>
     </div>
