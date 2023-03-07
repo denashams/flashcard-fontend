@@ -1,0 +1,13 @@
+.photo-container {
+  width: 100%;
+}
+.swiper-slide img {
+  width: 100%;
+  height: 300px;
+  border: 10px solid var(--color-background-variant);
+  border-radius: 40px;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: var(--color-orange);
+}
