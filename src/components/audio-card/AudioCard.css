@@ -1,0 +1,28 @@
+.audio-container {
+  background: var(--color-background-variant);
+  border-radius: 40px;
+
+  max-width: 400px;
+  margin: auto;
+  padding: 24px;
+}
+.audio-container img {
+  display: block;
+  margin: auto;
+  width: 250px;
+  border-radius: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.audio-container h3 {
+  color: var(--color-primary);
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+}
+.audio-container audio {
+  display: block;
+  margin: auto;
+}
+audio::-webkit-media-controls-panel {
+  background-color: var(--color-primary);
+}

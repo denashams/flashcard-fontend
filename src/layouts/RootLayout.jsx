@@ -6,11 +6,10 @@ export default function RootLayout() {
     <div className="root-layout">
       <div>
         <NavigationBar />
-      
       </div>
       <main>
         <Outlet />
       </main>
     </div>
-  )
+  );
 }

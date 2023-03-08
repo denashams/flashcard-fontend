@@ -26,6 +26,7 @@ export default function Slider3d() {
         grabCursor="true"
         centeredSlides="true"
         loop="true"
+        modifier={2.5}
         coverflowEffect={{
           rotate: 0,
           stretch: 100,

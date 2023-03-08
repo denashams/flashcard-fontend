@@ -5,6 +5,9 @@ import {
   RouterProvider
 } from 'react-router-dom'
 
+import Footer from './components/footer/Footer'
+
+
 // pages
 import Home from './pages/home/Home'
 import Signin from './pages/signin/Signin'
@@ -28,7 +31,10 @@ const router = createBrowserRouter(
 
 function App() {
   return (
+    <div>
     <RouterProvider router={router} />
+    <Footer/>
+    </div>
   );
 }
 
