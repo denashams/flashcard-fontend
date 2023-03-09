@@ -10,11 +10,11 @@ export default function Footer() {
     <a href="/" className='footer__logo'>متن آویس</a>
     <ul className='permalinks'>
       <li>
-<a href="/">خانه</a>
-<a href="#about">درباره ما</a>
-<a href="#projects">پروژه‌ها</a>
-<a href="#services">خدمات</a>
 <a href="#contact">ارتباط با ما</a>
+<a href="#services">خدمات</a>
+<a href="#projects">پروژه‌ها</a>
+<a href="#about">درباره ما</a>
+<a href="/">خانه</a>
       </li>
     </ul>
     <div className='footer__socials'>
@@ -24,7 +24,7 @@ export default function Footer() {
 
     </div>
     <div className="footer__copyright">
-      <small>همه حقوق متعلق به شرکت متن‌آویس است&copy;</small>
+      <small>همه حقوق متعلق به شرکت متن‌آویس است &copy;</small>
     </div>
   </footer>
 

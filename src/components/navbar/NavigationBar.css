@@ -1,10 +1,15 @@
-Nav a {
-    font-family: 'Tajawal', sans-serif;
-    text-decoration: none;
-    font-weight:700 ;
-    font-size: 20px;
-    color: var(--color-background);
+.navbar {
+  background-color: var(--color-primary);
 }
-Nav a.active {
-    color: var(--color-orange);
+
+.navbar-nav .nav-link {
+  color: var(--color-background);
+}
+.navbar-nav .nav-link .active {
+  color: rgb(14, 216, 64) !important;
+}
+.nav-link.active {
+  color: var(--color-orange) !important;
+  /* background: var(--color-background-variant) !important;
+  border-radius: 20%; */
 }

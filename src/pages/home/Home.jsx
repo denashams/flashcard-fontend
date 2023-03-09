@@ -3,6 +3,8 @@ import Slider from "../../components/header-slider/Slider";
 import facade from "../../assets/facade.jpg";
 import Slider3d from "../../components/slider3d/Slider3d";
 import MobileNav from "../../components/mobile-navbar/MobileNav";
+import { NavLink } from "react-router-dom";
+
 
 import "./Home.css";
 import AudioCard from "../../components/audio-card/AudioCard";
@@ -23,10 +25,10 @@ export default function Home() {
 
           <div className="item-container mt-5 p-0">
             <div className="row">
-              <div className="col-md item">
-                <img src={facade} alt="architecture" />
+              <div className="col-lg item">
+                <img src={facade} alt="architecture" className="img-fluid" />
               </div>
-              <div className="col-md item">
+              <div className="col-lg item">
                 <p>
                   معماری (مهرازی، والادگری یا رازیگری)، شیوه طراحی و روش ساخت و
                   ساز ساختمان‌ها و دیگر سازه‌های کالبدی است. معماری و دیگر
@@ -36,7 +38,9 @@ export default function Home() {
                   ناسازگاری که گاهی، میان آنها دیده می‌شود؛ نشان از گم‌شدگی
                   تعریف روشن معماری، در صد سال گذشته دارد
                 </p>
-                <button className="button-bold mt-4">ورود</button>
+                <button className="button-bold">
+                  <NavLink to="content-card"> ورود</NavLink>
+                  </button>
               </div>
             </div>
           </div>
@@ -59,7 +63,9 @@ export default function Home() {
           <div className="mt-5 mb-5">
             <Slider3d />
           </div>
-          <button className="button-bold mt-4">ورود</button>
+          <button className="button-bold mt-4">
+            <NavLink to="image-card">ورود</NavLink>
+          </button>
         </section>
       </div>
       <section id="podcast">
@@ -75,7 +81,9 @@ export default function Home() {
           <div className="mt-5">
           <AudioCard />
           </div>
-          <button className="button-bold mt-4">ورود</button>
+          <button className="button-bold mt-4">
+            <NavLink to="podcast">ورود</NavLink>
+          </button>
         </div>
       </section>
     </div>
