@@ -29,7 +29,7 @@ export default function NavigationBar() {
               <NavDropdown.Item as={NavLink} to="/" className="d-flex justify-content-end">لینک</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={NavLink} to="guide" >راهنما</Nav.Link>
-            <Nav.Link as={NavLink} to="signin">ورود</Nav.Link>
+            <Nav.Link as={NavLink} to="login">ورود | ثبت نام</Nav.Link>
             <Nav.Link as={NavLink} to="/">خانه</Nav.Link>
           </Nav>
         </Navbar.Collapse>
