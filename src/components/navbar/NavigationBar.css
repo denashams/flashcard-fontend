@@ -1,15 +1,10 @@
 .navbar {
-  background-color: var(--color-primary);
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,.1);
 }
-
-.navbar-nav .nav-link {
-  color: var(--color-background);
-}
-.navbar-nav .nav-link .active {
-  color: rgb(14, 216, 64) !important;
+.nav-link {
+  font-weight: bold;
 }
 .nav-link.active {
-  color: var(--color-orange) !important;
-  /* background: var(--color-background-variant) !important;
-  border-radius: 20%; */
+  color: var(--color-primary) !important;
+  font-weight: 700;
 }

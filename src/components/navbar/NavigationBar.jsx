@@ -12,7 +12,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 export default function NavigationBar() {
   return (
-    <Navbar expand="lg" fixed="top">
+    <Navbar expand="lg" fixed="top" className="navbar navbar-light bg-light">
       <Container>
         <Navbar.Brand as={NavLink} to="/">
           <img src={logo} width="40" height="40" alt="Matn Avis logo" />

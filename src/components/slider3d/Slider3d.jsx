@@ -52,16 +52,16 @@ export default function Slider3d() {
         }}
       >
         <SwiperSlide>
-          <img src={pic1} alt="pic1" />
+          <img src={pic1} alt="pic1" className="image-fluid" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={pic2} alt="pic2" />
+          <img src={pic2} alt="pic2" className="image-fluid" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={pic3} alt="pic3" />
+          <img src={pic3} alt="pic3" className="image-fluid" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={pic4} alt="pic4" />
+          <img src={pic4} alt="pic4" className="image-fluid" />
         </SwiperSlide>
       </Swiper>
     </div>

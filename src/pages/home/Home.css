@@ -1,34 +1,45 @@
-.header-slider {
-  background-color: var(--color-background-variant);
-  padding: 100px 0 40px 0;
+.page-title h1 {
+  padding: 50px 0;
+  margin-top: 4rem;
+  text-align: center;
+  color: var(--color-primary);
+  font-weight: 700;
 }
 
-.item-container {
-  background-color: var(--color-background-variant);
-  padding: 0;
-  border-radius: 40px;
-}
-.item p {
-  padding: 30px;
-  font-size: 16px;
-  line-height: 30px;
-  color: var(--color-primary);
-  text-align: right;
-  font-weight: normal;
-}
-.flashcard-description,
-.podcast-description {
+.home p {
   font-size: 18px;
   line-height: 30px;
-  color: var(--color-primary);
-  text-align: center;
-  font-weight: normal;
+  font-weight: 300;
 }
-.item img {
-  display: block;
-  margin: auto;
-  border-bottom-left-radius: 40px 40px;
-  border-top-left-radius: 40px 40px;
+.contentcard h2 {
+  text-align: right;
+  margin: 100px 0 30px;
+}
+
+.contentcard p {
+  text-align: right;
+}
+
+
+.squares-container {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  background-color: var(--color-gray-light);
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;}
+.blue-square {
+  background-color: var(--color-primary);
+}
+.home a {
+  color: var(--color-white);
+}
+.contentcard a:hover {
+  color: var(--color-white);
 }
 
 /* ======================media queries==================== */
@@ -37,25 +48,32 @@
   .container {
     width: 100%;
   }
-  img {
-    display: none;
-  }
+
   p {
     font-size: 18px;
     text-align: center;
   }
-
-  .item-container button {
-    margin-bottom: 20px;
-  }
-}
-@media (max-width: 1284px) {
-  .item-container button {
+  .home button {
     margin: 0 auto;
   }
-  /* .item-container img {
-    border-top-left-radius: 40px 40px;
-    border-top-right-radius: 40px 40px;
 
-  } */
+
+}
+@media (max-width: 576px) {
+  .home .container {
+    margin: 0 auto;
+    width: 100%;
+
+  
+  }
+.home .contentcard p {
+margin: 20px;
+text-align: center;
+}
+ 
+  .home h2 {
+    text-align: center;
+    color: red;
+  }
+
 }
