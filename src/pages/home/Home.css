@@ -1,15 +1,16 @@
+section {
+  scroll-margin-top: 100px;
+}
+
 .page-title h1 {
   padding: 50px 0;
   margin-top: 4rem;
   text-align: center;
-  color: var(--color-primary);
-  font-weight: 700;
 }
 
 .home p {
   font-size: 18px;
   line-height: 30px;
-  font-weight: 300;
 }
 .contentcard h2 {
   text-align: right;
@@ -19,7 +20,6 @@
 .contentcard p {
   text-align: right;
 }
-
 
 .squares-container {
   display: flex;
@@ -31,7 +31,8 @@
   height: 80px;
   margin: 10px;
   background-color: var(--color-gray-light);
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;}
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
 .blue-square {
   background-color: var(--color-primary);
 }
@@ -44,36 +45,20 @@
 
 /* ======================media queries==================== */
 
-@media (max-width: 768px) {
-  .container {
-    width: 100%;
-  }
-
-  p {
+@media only screen and (max-width: 600px) {
+  .home p {
     font-size: 18px;
     text-align: center;
   }
   .home button {
     margin: 0 auto;
   }
-
-
 }
-@media (max-width: 576px) {
-  .home .container {
-    margin: 0 auto;
-    width: 100%;
-
-  
-  }
-.home .contentcard p {
-margin: 20px;
-text-align: center;
+.home .container {
+  margin: 0 auto;
+  width: 100%;
 }
- 
-  .home h2 {
-    text-align: center;
-    
-  }
 
+.home h2 {
+  text-align: center;
 }

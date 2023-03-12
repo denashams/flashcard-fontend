@@ -20,7 +20,7 @@ export default function Home() {
 
       <section id="contentcard" className="contentcard">
         <div className="container  mt-5">
-          <h2 >محتوای متنی</h2>
+          <h2>محتوای متنی</h2>
           <div className="content-container">
             <div className="row">
               <div className="col-lg item squares-container">

@@ -1,21 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200;300;400;700&display=swap");
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 300;
+	src: url('./assets/fonts/woff2/Dana-Light.woff2') format('woff2'),
+		 url('./assets/fonts/woff/Dana-Light.woff') format('woff'); 
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 600;
+	src: url('./assets/fonts/woff2/Dana-DemiBold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('./assets/fonts/woff/Dana-DemiBold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 900;
+	src: url('./assets/fonts/woff2/Dana-Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('./assets/fonts/woff/Dana-Black.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 100;
+	src: url('./assets/fonts/woff2/Dana-Thin.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('./assets/fonts/woff/Dana-Thin.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+
+
 :root {
   --color-white: #fff;
   --color-primary: #427a93;
   --color-gray-light: #f2f2f2;
   --color-gray-dark: #696969;
 }
+
+html{scroll-behavior:smooth;
+}
+
+
 body {
-  font-family: 'Vazirmatn', sans-serif;}
+  font-family: 'Dana',Arial, sans-serif;}
 a {
   text-decoration: none;
 }
+h1 {
+  font-weight: 900;
+  color: var(--color-primary);
+
+}
 
 h2 {
-  font-weight: 400;
+  font-weight: 600;
   color: var(--color-primary);
+}
+p {
+  font-weight: 300;
 }
 .container {
   width: 75%;
@@ -24,7 +65,7 @@ h2 {
 .button-oulined {
   display: block;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 100;
   letter-spacing: 1px;
   padding: 13px 20px 13px;
   outline: 0;
