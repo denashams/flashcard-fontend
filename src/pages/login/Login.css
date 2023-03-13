@@ -165,3 +165,28 @@
 .logincontainer.right-panel-active .overlay-right {
   transform: translateX(20%);
 }
+/* ======================media queries==================== */
+
+@media (max-width: 768px) {
+.logincontainer {
+  padding: 0;
+  margin: 0;
+
+}
+.logincontainer h2, .logincontainer  h3 {
+  font-size: 14px;
+}
+.logincontainer input {
+  padding: 10px;
+}
+.signup-btn,
+.signin-btn, .logincontainer button {
+  font-size: 14px;
+}
+.logincontainer form {
+  padding: 20px;
+}
+
+
+  
+}
