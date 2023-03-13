@@ -1,4 +1,11 @@
 @font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 100;
+  src: url('./assets/fonts/woff2/Dana-Thin.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+     url('./assets/fonts/woff/Dana-Thin.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
 	font-family: dana;
 	font-style: normal;
 	font-weight: 300;
@@ -19,19 +26,13 @@
 	src: url('./assets/fonts/woff2/Dana-Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
 		 url('./assets/fonts/woff/Dana-Black.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
 }
-@font-face {
-	font-family: dana;
-	font-style: normal;
-	font-weight: 100;
-	src: url('./assets/fonts/woff2/Dana-Thin.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
-		 url('./assets/fonts/woff/Dana-Thin.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-}
 
 
 
 :root {
   --color-white: #fff;
   --color-primary: #427a93;
+  --color-primary-dark: #19335c;
   --color-gray-light: #f2f2f2;
   --color-gray-dark: #696969;
 }
@@ -94,4 +95,12 @@ p {
 .button-oulined:hover:after {
   top: 0px;
   left: 0px;
+}
+
+
+button a {
+  color: var(--color-white);
+}
+button a:hover {
+  color: var(--color-white);
 }

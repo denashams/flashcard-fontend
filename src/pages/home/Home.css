@@ -1,6 +1,9 @@
 section {
   scroll-margin-top: 100px;
 }
+.home {
+  margin-bottom: 50px;
+}
 
 .page-title h1 {
   padding: 50px 0;
@@ -36,16 +39,9 @@ section {
 .blue-square {
   background-color: var(--color-primary);
 }
-.home a {
-  color: var(--color-white);
-}
-.contentcard a:hover {
-  color: var(--color-white);
-}
 
 /* ======================media queries==================== */
-
-@media only screen and (max-width: 600px) {
+/* @media (max-width: 600px) {
   .home p {
     font-size: 18px;
     text-align: center;
@@ -53,12 +49,32 @@ section {
   .home button {
     margin: 0 auto;
   }
-}
-.home .container {
-  margin: 0 auto;
-  width: 100%;
-}
 
-.home h2 {
-  text-align: center;
+
+.home .content-container p{
+  margin: 30px 0;
+  
+}
+} */
+
+@media (max-width: 768px) {
+  .home p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .home button {
+    margin: 0 auto;
+  }
+
+  .home .container {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .home h2 {
+    text-align: center;
+  }
+  .home .content-container p {
+    margin: 30px 0;
+  }
 }

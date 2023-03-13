@@ -1,33 +1,53 @@
-import React from "react";
-import Form from "react-bootstrap/Form";
-import { NavLink } from "react-router-dom";
+import React, { useState } from "react";
 
 import "./Login.css";
 
 export default function Login() {
+  const [addClass, setAddClass] = useState("");
+
   return (
-    <div className="login-container">
-      <h3>ورود به حساب</h3>
-      <div className="form-container">
-      <Form>
-        <Form.Group className="mb-3 " controlId="formUsername">
-          <Form.Label>نام کاربری</Form.Label>
-          <Form.Control type="text" placeholder="Username" />
-        </Form.Group>
-
-        <Form.Group className="mb-3" controlId="formPassword">
-          <Form.Label>رمز عبور</Form.Label>
-          <Form.Control type="password" placeholder="Password" />
-        </Form.Group>
-      </Form>
+    <div className="Login">
+    <div className={`logincontainer ${addClass}`} id="loginContainer">
+      <div className="form-container signup-container">
+        <form>
+          <h2>ساختن حساب کاربری</h2>
+          <input type="text" placeholder="نام" />
+          <input type="email" placeholder="ایمیل" />
+          <input type="password" placeholder="گذرواژه" />
+          <input type="button" value="ثبت نام" className="signup-btn" />
+        </form>
       </div>
-      <a href="/" className="d-flex justify-content-center forget-password">رمز عبور را فراموش کرده‌ام</a>
-      <button>ورود</button>
-
-      <span className="signup-links">
-        <NavLink to="/signup">ساختن حساب کاربری</NavLink>
-        <p >حساب کاربری ندارید؟</p>
-      </span>
+      <div className="form-container signin-container">
+        <form>
+          <h2>ورود به حساب کاربری</h2>
+          <input type="text" id="username" placeholder="نام کاربری" />
+          <input type="password" placeholder="گذرواژه" />
+          <input type="button" value="ورود" className="signin-btn"/>
+        </form>
+      </div>
+      <div className="overlay-container">
+        <div className="overlay">
+          <div className="overlay-panel overlay-left">
+            <button
+              className="ghost"
+              id="signIn"
+              onClick={() => setAddClass("")}
+            >
+              وارد شوید
+            </button>
+          </div>
+          <div className="overlay-panel overlay-right">
+            <button
+              className="ghost"
+              id="signUp"
+              onClick={() => setAddClass("right-panel-active")}
+            >
+              عضو شوید
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
   );
 }
