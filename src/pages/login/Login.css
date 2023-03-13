@@ -10,8 +10,14 @@
   color: var(--color-primary);
   font-weight: 300;
   font-size: 28px;
-  margin: 0;
+
+  margin-bottom: 20px;
   text-align: center;
+}
+.logincontainer h3 {
+  color: var(--color-white);
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 .logincontainer button {
   color: var(--color-white);
@@ -24,7 +30,6 @@
   color: var(--color-primary-dark);
   background: var(--color-white);
 }
-
 
 .logincontainer form {
   background-color: var(--color-white);
@@ -42,11 +47,14 @@
   padding: 12px 15px;
   margin: 8px 0;
   width: 100%;
+  text-align: right;
 }
-.signup-btn, .signin-btn {
+.signup-btn,
+.signin-btn {
   background: var(--color-primary) !important;
   border-radius: 30px;
   color: var(--color-white);
+  text-align: center !important;
 }
 .logincontainer {
   background-color: #fff;
