@@ -183,6 +183,12 @@
 .signin-btn, .logincontainer button {
   font-size: 14px;
 }
+
+.logincontainer .ghost {
+  padding: 10px;
+}
+
+
 .logincontainer form {
   padding: 20px;
 }
