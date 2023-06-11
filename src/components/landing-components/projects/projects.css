@@ -1,7 +1,7 @@
 .projects-container {
   background-color: var(--color-primary-dark);
   margin: 0 20px;
-  color: var(--color-peach);
+  color: var(--color-white);
 }
 .project-image img {
   max-height: 500px;

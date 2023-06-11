@@ -2,8 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 import "./projects.css";
-import network from "../../../assets/network.png";
-import garden from "../../../assets/garden.jpg";
+// import network from "../../../assets/network.png";
+// import garden from "../../../assets/garden.jpg";
 import projects from "../../../assets/projects.jpg"
 // import landscape from "../../../assets/landscape.jpg";
 // import pirnia from "../../../assets/pirnia.jpg";
