@@ -9,6 +9,11 @@ section {
     padding: 50px 0;
     margin-top: 4rem;
     text-align: center;
+    color: var(--color-primary-dark);
+    font-weight: 600;
+  }
+  .darsafzaar-home h2 {
+    color: var(--color-primary);
   }
   
   .darsafzaar-home p {
