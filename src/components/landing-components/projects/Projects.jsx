@@ -9,6 +9,19 @@ import projects from "../../../assets/projects.jpg";
 // import pirnia from "../../../assets/pirnia.jpg";
 // import page from "../../../assets/page.jpg";
 // import note from "../../../assets/note.jpg";
+import { BiNetworkChart } from "react-icons/bi"
+import { TbBinaryTree } from "react-icons/tb"
+import { IoIosGitNetwork } from "react-icons/io"
+import { FaChalkboardTeacher } from "react-icons/fa"
+import { BsReverseListColumnsReverse } from "react-icons/bs"
+import { SlNotebook } from "react-icons/sl"
+
+
+
+
+
+
+
 const Projects = () => {
   return (
     <section id="projects">
@@ -21,7 +34,7 @@ const Projects = () => {
             <div className="row row-container">
               <div className="col-4 ">
                 <div className="single-project  ">
-                  <span>logo</span>
+                  <span className="project-icon"><BiNetworkChart/></span>
                   <h6>هستان‌شناسی تاریخ معماری ایران</h6>
                   <button className="go-to-project">
                     {" "}
@@ -31,7 +44,7 @@ const Projects = () => {
               </div>
               <div className="col-4">
                 <div className="single-project  ">
-                  <span>logo</span>
+                <span className="project-icon"><TbBinaryTree/></span>
                   <h6>هستان‌شناسی باغ ایرانی</h6>
                   <button className="go-to-project">
                     {" "}
@@ -41,7 +54,7 @@ const Projects = () => {
               </div>
               <div className="col-4">
                 <div className="single-project border-0">
-                  <span>logo</span>
+                <span className="project-icon"><IoIosGitNetwork/></span>
                   <h6>هستان‌شناسی تاریخ معماری منظر</h6>
                   <button className="go-to-project">
                     {" "}
@@ -53,7 +66,7 @@ const Projects = () => {
             <div className="row row-container border-0">
               <div className="col-4 ">
                 <div className="single-project  ">
-                  <span>logo</span>
+                <span className="project-icon"><FaChalkboardTeacher/></span>
                   <h6>پیرنیا</h6>
                   <button className="go-to-project">
                     {" "}
@@ -63,7 +76,7 @@ const Projects = () => {
               </div>
               <div className="col-4">
                 <div className="single-project  ">
-                  <span>logo</span>
+                <span className="project-icon"><BsReverseListColumnsReverse/></span>
                   <h6>سینتوپیکون</h6>
                   <button className="go-to-project">
                     {" "}
@@ -73,7 +86,7 @@ const Projects = () => {
               </div>
               <div className="col-4">
                 <div className="single-project border-0">
-                  <span>logo</span>
+                <span className="project-icon"><SlNotebook/></span>
                   <h6>درس‌افزار</h6>
                   <button className="go-to-project">
                     <NavLink to="/darsafzaar-home">ورود</NavLink>

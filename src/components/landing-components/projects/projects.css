@@ -2,6 +2,8 @@
   background-color: var(--color-primary-dark);
   margin: 0 20px;
   color: var(--color-white);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 20px, rgba(0, 0, 0, 0.23) 0px 3px 20px;
+
 }
 .project-image img {
   max-height: 500px;
@@ -23,6 +25,11 @@
   border-radius: 20px;
   border: none;
   margin-top: 15px;
+}
+.project-icon {
+  display: block;
+  font-size: 36px;
+  margin-bottom: 10px;
 }
   
 
