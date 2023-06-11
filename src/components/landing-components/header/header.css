@@ -30,7 +30,6 @@ header {
   cursor: pointer;
   overflow: hidden;
   position: relative;
-  color: var(--color-peach);
   font-weight: 700;
   font-size: 18px;
   background-color: var(--color-primary-dark);
@@ -41,6 +40,13 @@ header {
 .brochure-btn span {
   position: relative;
   z-index: 1;
+}
+.brochure-btn a {
+  color: var(--color-peach);
+
+}
+.brochure-btn a:hover {
+  color: var(--color-peach);
 }
 
 .brochure-btn:after {
