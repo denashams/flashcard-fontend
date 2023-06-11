@@ -20,7 +20,7 @@ export default function NavigationBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link as={NavLink} to="podcast">
+            <Nav.Link as={NavLink} to="coming-soon">
               پادکست
             </Nav.Link>
             <NavDropdown title="پروژه‌ها" id="basic-nav-dropdown">
@@ -33,21 +33,21 @@ export default function NavigationBar() {
               </NavDropdown.Item>
               <NavDropdown.Item
                 as={NavLink}
-                to="ontologies"
+                to="coming-soon"
                 className="d-flex justify-content-end"
               >
                 هستان‌شناسی‌ها
               </NavDropdown.Item>
               <NavDropdown.Item
                 as={NavLink}
-                to="syntopicon"
+                to="coming-soon"
                 className="d-flex justify-content-end"
               >
                 سینتوپیکون
               </NavDropdown.Item>
               <NavDropdown.Item
                 as={NavLink}
-                to="pirnia"
+                to="coming-soon"
                 className="d-flex justify-content-end"
               >
                 پیرنیا

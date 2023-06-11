@@ -14,17 +14,21 @@ import Landing from "./pages/landing/Landing";
 import Login from "./pages/login/Login";
 import DarsafzaarHome from "./pages/projects/darsafzaar/darsafzaar-home/DarsafzaarHome";
 import DarsafzaarGuide from "./pages/projects/darsafzaar/darsafzaar-guide/DarsafzaarGuide";
+import ComingSoon from "./pages/coming-soon/ComingSoon";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<RootLayout />}>
       <Route path="/" element={<Landing />} />
       <Route path="login" element={<Login />} />
+      <Route path="coming-soon" element={<ComingSoon />} />
+
       <Route element={<DarsafzaarLayout />}>
         <Route path="darsafzaar-home" element={<DarsafzaarHome />} />
         <Route path="darsafzaar-guide" element={<DarsafzaarGuide />} />
         <Route path="darsafzaar-home" element={<DarsafzaarHome />} />
         <Route path="darsafzaar-home" element={<DarsafzaarHome />} />
+        
       </Route>
     </Route>
   )

@@ -1,0 +1,12 @@
+
+
+.coming-soon {
+    margin: 10px 0;
+    background-color: var(--color-primary-dark);
+    padding: 220px 0;
+}
+h1 {
+    color: var(--color-peach);
+  direction: rtl;
+  
+}
