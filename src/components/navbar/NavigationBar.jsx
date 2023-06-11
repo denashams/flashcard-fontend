@@ -9,7 +9,6 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
-
 export default function NavigationBar() {
   return (
     <Navbar expand="lg" fixed="top" className="navbar navbar-light bg-light">
@@ -21,16 +20,55 @@ export default function NavigationBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <NavDropdown title="یادبرگ‌ها" id="basic-nav-dropdown">
-              <NavDropdown.Item as={NavLink} to="content-card" className="d-flex justify-content-end">متن‌برگ</NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="image-card" className="d-flex justify-content-end">تصویربرگ</NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="podcast" className="d-flex justify-content-end">پادکست</NavDropdown.Item>
+            <Nav.Link as={NavLink} to="podcast">
+              پادکست
+            </Nav.Link>
+            <NavDropdown title="پروژه‌ها" id="basic-nav-dropdown">
+              <NavDropdown.Item
+                as={NavLink}
+                to="darsafzaar-home"
+                className="d-flex justify-content-end"
+              >
+                درس‌افزار
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                as={NavLink}
+                to="ontologies"
+                className="d-flex justify-content-end"
+              >
+                هستان‌شناسی‌ها
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                as={NavLink}
+                to="syntopicon"
+                className="d-flex justify-content-end"
+              >
+                سینتوپیکون
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                as={NavLink}
+                to="pirnia"
+                className="d-flex justify-content-end"
+              >
+                پیرنیا
+              </NavDropdown.Item>
+
               <NavDropdown.Divider />
-              <NavDropdown.Item as={NavLink} to="/" className="d-flex justify-content-end">لینک</NavDropdown.Item>
+              <NavDropdown.Item
+                as={NavLink}
+                to="/"
+                className="d-flex justify-content-end"
+              >
+                لینک
+              </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={NavLink} to="guide" >راهنما</Nav.Link>
-            <Nav.Link as={NavLink} to="login">ورود | ثبت نام</Nav.Link>
-            <Nav.Link as={NavLink} to="/">خانه</Nav.Link>
+
+            <Nav.Link as={NavLink} to="login">
+              ورود | ثبت نام
+            </Nav.Link>
+            <Nav.Link as={NavLink} to="/">
+              خانه
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

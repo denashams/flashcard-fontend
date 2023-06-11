@@ -1,0 +1,123 @@
+.projects-container {
+  background-color: var(--color-primary-dark);
+  margin: 0 20px;
+  color: var(--color-peach);
+}
+.project-image img {
+  max-height: 500px;
+  object-fit: cover;
+}
+.single-project {
+  text-align: center;
+  padding: 60px 0;
+  border-right: 1px solid var(--color-gray-light);
+}
+.row-container {
+  border-bottom: 1px solid var(--color-gray-light);
+  max-width: 90%;
+}
+.go-to-project {
+  color: var(--color-gray-light);
+  background-color: var(--color-primary);
+  padding: 10px 35px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 15px;
+}
+  
+
+/* .projects-heading h2 {
+  color: var(--color-peach);
+  margin: 40px;
+}
+
+.project-description {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+  border-radius: 10px;
+  height: 100%;
+  padding: 30px 70px;
+}
+.project-description p {
+  direction: rtl;
+  text-align: justify;
+  color: var(--color-primary-dark);
+}
+.project-description h5 {
+  color: var(--color-primary-dark);
+  text-align: right;
+  font-weight: 600;
+}
+.project-image {
+  box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  padding: 30px 50px;
+  border-radius: 10px;
+}
+.project-container {
+  margin-bottom: 40px;
+}
+
+.project-image img {
+  border-radius: 10px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+.project-btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.button-highlight {
+  align-items: center;
+  background-color: var(--color-orange);
+  border: none;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: var(--color-peach);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 35px;
+  padding: 2px 12px;
+  text-decoration: none;
+}
+
+.button-highlight:hover {
+  background-color: var(--color-peach);
+
+  color: var(--color-orange);
+  border: none;
+}
+
+.button-simple {
+  background-color: var(--color-peach);
+
+  color: var(--color-orange);
+  border: none;
+  align-items: center;
+  border: none;
+  border-radius: 11px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 35px;
+  padding: 2px 12px;
+  text-decoration: none;
+}
+.button-simple:hover {
+  background-color: var(--color-orange);
+
+  color: var(--color-peach);
+}
+
+.project-btns button:active:hover,
+.project-btns button:focus:hover,
+.project-btns button:focus {
+  background-color: #e86942;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #ffffff;
+} */

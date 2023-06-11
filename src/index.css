@@ -26,15 +26,30 @@
 	src: url('./assets/fonts/woff2/Dana-Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
 		 url('./assets/fonts/woff/Dana-Black.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
 }
-
+@font-face {
+  font-family: doran;
+  font-style: normal;
+  font-weight: 600;
+  src: url('./assets/fonts/doran/woff2/Doran-Regular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+     url('./assets/fonts/doran/woff/Doran-Regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: doran;
+	font-style: normal;
+	font-weight: 900;
+	src: url('./assets/fonts/doran/woff2/Doran-Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('./assets/fonts/doran/woff/Doran-Bold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
 
 
 :root {
   --color-white: #fff;
   --color-primary: #427a93;
   --color-primary-dark: #19335c;
-  --color-gray-light: #f2f2f2;
+  --color-gray-light: #f2f2f2c9;
   --color-gray-dark: #696969;
+  --color-peach: #fee2b9;
+  --color-orange: #e86942;
 }
 
 html{scroll-behavior:smooth;
@@ -46,16 +61,9 @@ body {
 a {
   text-decoration: none;
 }
-h1 {
-  font-weight: 900;
-  color: var(--color-primary);
 
-}
 
-h2 {
-  font-weight: 600;
-  color: var(--color-primary);
-}
+
 p {
   font-weight: 300;
 }

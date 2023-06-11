@@ -1,0 +1,13 @@
+
+.landing-page {
+    background-color: var(--color-primary);
+
+}
+h2 {
+    color: var(--color-peach);
+    text-align: center;
+}
+h5 {
+    color: var(--color-gray-light);
+    text-align: center;
+}
