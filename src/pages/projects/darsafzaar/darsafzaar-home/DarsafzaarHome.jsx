@@ -52,7 +52,7 @@ export default function DarsafzaarHome() {
                     تعریف روشن معماری، در صد سال گذشته دارد
                   </p>
                   <button className="button-oulined ms-auto">
-                    <NavLink to="content-card"> اطلاعات بیشتر و ورود</NavLink>
+                    <NavLink to="/coming-soon"> اطلاعات بیشتر و ورود</NavLink>
                   </button>
                 </div>
               </div>
@@ -77,7 +77,7 @@ export default function DarsafzaarHome() {
               <Slider3d />
             </div>
             <button className="button-oulined mx-auto mt-4">
-              <NavLink to="image-card">اطلاعات بیشتر و ورود</NavLink>
+              <NavLink to="/coming-soon">اطلاعات بیشتر و ورود</NavLink>
             </button>
           </section>
         </div>
@@ -95,7 +95,7 @@ export default function DarsafzaarHome() {
               <AudioCard />
             </div>
             <button className="button-oulined mx-auto mt-4">
-              <NavLink to="podcast">اطلاعات بیشتر و ورود</NavLink>
+              <NavLink to="/coming-soon">اطلاعات بیشتر و ورود</NavLink>
             </button>
           </div>
         </section>

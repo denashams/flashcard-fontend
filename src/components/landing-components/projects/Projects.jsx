@@ -26,7 +26,8 @@ const Projects = () => {
                   <button className="go-to-project">
                     {" "}
                     <NavLink to="coming-soon">ورود</NavLink>
-                  </button>                </div>
+                  </button>{" "}
+                </div>
               </div>
               <div className="col-4">
                 <div className="single-project  ">
@@ -35,7 +36,8 @@ const Projects = () => {
                   <button className="go-to-project">
                     {" "}
                     <NavLink to="coming-soon">ورود</NavLink>
-                  </button>                </div>
+                  </button>{" "}
+                </div>
               </div>
               <div className="col-4">
                 <div className="single-project border-0">
@@ -44,7 +46,8 @@ const Projects = () => {
                   <button className="go-to-project">
                     {" "}
                     <NavLink to="coming-soon">ورود</NavLink>
-                  </button>                </div>
+                  </button>{" "}
+                </div>
               </div>
             </div>
             <div className="row row-container border-0">
@@ -55,7 +58,8 @@ const Projects = () => {
                   <button className="go-to-project">
                     {" "}
                     <NavLink to="coming-soon">ورود</NavLink>
-                  </button>                </div>
+                  </button>{" "}
+                </div>
               </div>
               <div className="col-4">
                 <div className="single-project  ">
