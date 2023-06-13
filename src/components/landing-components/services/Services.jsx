@@ -1,92 +1,40 @@
-import React from 'react'
-import './services.css'
-import {BsCheck2Square} from 'react-icons/bs'
+import React from "react";
+import "./services.css";
 
 const Services = () => {
   return (
-
-    <section id='services'>
-        <div className='services__heading'>
-        <h5>What We Offer</h5>
-      <h2>Our Services</h2>
-        </div>
-        <div className='container services__container'>
-            <div className="row">
-                <div className="col-lg-4 mb-5">
-                    {/* 1st service */}
-        <div className='services'>
-          <div className='services__head'>
-            <h3>Knowledge Representation</h3>
+    <section id="services">
+      <div className="services-container">
+        <h2>خدمات ما</h2>
+        <div className="container services">
+          <div className=" single-service">
+            <h6>ساماندهی دانش موجود هنر و معماری</h6>
+            <ul>
+              <li>هستان‌شناسی</li>
+              <li>بازنمایی تصویری داده</li>
+              <li>توسعهٔ پایگاه‌های داده</li>
+            </ul>
           </div>
-          <ul className='services__list'>
-            <li>
-              <BsCheck2Square className='services__icon'/>
-              <p>Ontologies</p>
-            </li>
-            <li>
-              <BsCheck2Square className='services__icon'/>
-              <p>Knowledge Graphs </p>
-            </li>
-            <li>
-              <BsCheck2Square className='services__icon'/>
-              <p>Data Visualization</p>
-            </li>
-            <li>
-              <BsCheck2Square className='services__icon'/>
-              <p>Database Design</p>
-            </li>
-          </ul>
-        </div>
-        {/* end */}
-                </div>
-                <div className="col-lg-4 mb-5">
-                    {/* second service */}
-        <div className='services'>
-          <div className='services__head'>
-            <h3>Research Consulting</h3>
+          <div className=" single-service">
+            <h6>مشاورهٔ پژوهشی</h6>
+            <ul>
+              <li>همراهی در یافتن منابع پژوهش</li>
+              <li>همراهی در انتشار پژوهش</li>
+              <li>انتشار نقد</li>
+              <li>ایجاد پیوند میان کاربران با متخصصان</li>
+            </ul>
           </div>
-          <ul className='services__list'>
-            <li>
-              <BsCheck2Square className='services__icon'/>
-              <p>Help with finding research sources</p>
-            </li>
-            <li>
-              <BsCheck2Square className='services__icon'/>
-              <p>Publshing Reviews</p>
-            </li>
-            <li>
-              <BsCheck2Square className='services__icon'/>
-              <p>Publshing Reviews</p>
-            </li>
-          </ul>
-        </div>
-        {/* end */}
-                </div><div className="col-lg-4 mb-5">
-                    {/* 3d service */}
-        <div className='services'>
-          <div className='services__head'>
-            <h3>3rd service</h3>
+          <div className=" single-service">
+            <h6>آموزش</h6>
+            <ul>
+              <li>آموزش نظام‌های ساماندهی دانش</li>
+              <li>دوره‌های کوتاه‌مدت و بلندمدت</li>
+              <li>عرضهٔ بسته‌های دانشی</li>
+            </ul>
           </div>
-          <ul className='services__list'>
-            <li>
-              <BsCheck2Square className='services__icon'/>
-              <p>Publshing Reviews</p>
-            </li>
-            <li>
-              <BsCheck2Square className='services__icon'/>
-              <p>Publshing Reviews</p>
-            </li>
-            <li>
-              <BsCheck2Square className='services__icon'/>
-              <p>Publshing Reviews</p>
-            </li>
-          </ul>
         </div>
-        {/* end */}
-                </div>
-            </div>
-        </div>
+      </div>
     </section>
-  )
-}
-export default Services
+  );
+};
+export default Services;
