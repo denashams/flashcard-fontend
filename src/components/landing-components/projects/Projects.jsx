@@ -23,7 +23,7 @@ const data = [
     id: "1",
     key: "1",
     title: "پروژه‌های ما",
-    text: "",
+    text: "با پروژه‌های ما بیشتر آشنا شوید",
     img: projects,
   },
   {

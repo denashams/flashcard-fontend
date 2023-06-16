@@ -30,12 +30,13 @@
   color: var(--color-primary-dark);
   font-weight: 600;
   font-size: 20px;
+
 }
 .summary-box p {
   color: black;
   text-align: center;
   direction: rtl;
-  margin: 20px -60px;
+  margin: 15px -60px;
 }
 
 .single-project {

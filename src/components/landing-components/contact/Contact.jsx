@@ -42,8 +42,8 @@ const Contact = () => {
               </div>
               <div className="col-5 contact-options">
                 <div className="contact-optionBox">
-                  <div className="contact-detail">
-                    تهران، اوین، دانشگاه شهید بهشتی، طبقهٔ اول
+                  <div className="contact-address">
+                    تهران، ولنجک، میدان شهید شهریاری، بلوار دانشجو، دانشگاه شهید بهشتی، دانشکدهٔ معماری و شهرسازی، مرکز نوآوری
                   </div>
                   <div className="contact-icon">
                     <a
@@ -56,9 +56,9 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="contact-optionBox">
-                  <div className="contact-detail">(+۹۸) ۰۲۱-۱۲۳۴۵۶۷</div>
+                  <div className="contact-detail ">(+۹۸) ۰۲۱-۲۹۹۰۲۸۷۰</div>
                   <div className="contact-icon">
-                    <a href="tel:+9821558866">
+                    <a href="tel:+982129902870">
                       <BsTelephone />{" "}
                     </a>
                   </div>
