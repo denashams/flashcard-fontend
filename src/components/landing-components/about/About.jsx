@@ -6,7 +6,6 @@ import shamsizadeh from "../../../assets/shamsizadeh.jpg";
 import sinaiyan from "../../../assets/sinaiyan.jpg";
 import mirmohamadi from "../../../assets/mirmohamadi.jpg";
 import baqeri from "../../../assets/baqeri.jpg";
-import bargostovan from "../../../assets/bargostovan.jpg";
 
 // import { BsAwardFill } from "react-icons/bs";
 // import { HiUserGroup } from "react-icons/hi";
@@ -62,12 +61,7 @@ const About = () => {
                     <figcaption>مهسا باقری</figcaption>
                   </figure>
                 </div>
-                <div class="flip-3d">
-                  <figure>
-                    <img src={bargostovan} alt="Morvarid Bargostovan" />
-                    <figcaption>مروارید برگستوان</figcaption>
-                  </figure>
-                </div>
+                
               </div>
             </div>
             <div className="col about-description">
