@@ -53,16 +53,16 @@ const About = () => {
                     <figcaption>نینا میرمحمدی</figcaption>
                   </figure>
                 </div>
-              </div>
-              <div className="team-images">
                 <div class="flip-3d">
                   <figure>
                     <img src={baqeri} alt="Mahsa Baqeri" />
                     <figcaption>مهسا باقری</figcaption>
                   </figure>
                 </div>
-                
+
+
               </div>
+             
             </div>
             <div className="col about-description">
               <h2>دربارهٔ ما</h2>

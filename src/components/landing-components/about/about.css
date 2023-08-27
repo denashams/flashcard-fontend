@@ -11,9 +11,7 @@
   font-weight: 600;
   line-height: 40px;
 }
-.about-description {
-  padding-top: 100px;
-}
+
 
 .about-description p {
   color: var(--color-primary-dark);
