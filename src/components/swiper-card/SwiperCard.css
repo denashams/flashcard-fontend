@@ -1,0 +1,28 @@
+.swiper-card-wrapper img {
+  border: none;
+  border-radius: 0;
+
+}
+.card {
+  border: 1px solid black !important;
+  border-radius: 0 !important;
+  
+}
+.card-title {
+  text-align: center;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  margin-top: 5px !important;
+}
+.card-text {
+  text-align: center;
+  font-size: 14px;
+  padding: 15px 0;
+}
+.swiper-button-next, .swiper-button-prev {
+    color: var(--color-white);
+}
+.swiper-pagination-bullet {
+    background: var(--color-primary-dark) !important;
+}
+

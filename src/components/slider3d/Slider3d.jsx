@@ -1,37 +1,33 @@
 import React from "react";
-
-import { Pagination, EffectCoverflow } from "swiper";
+import PropTypes from "prop-types"; // Import PropTypes for prop validation
+import { EffectCoverflow, Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-import "./Slider3d.css";
-
-import pic1 from "../../assets/flashcards/1.jpg";
-import pic2 from "../../assets/flashcards/2.jpg";
-import pic3 from "../../assets/flashcards/3.jpg";
-import pic4 from "../../assets/flashcards/4.jpg";
-
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/effect-coverflow";
+import "swiper/css/navigation";
 
-export default function Slider3d() {
+import "swiper/css/effect-coverflow";
+import "./Slider3d.css";
+
+export default function Slider3d({ images, navigation, pagination }) {
   return (
     <div className="photo-container">
       <Swiper
-        modules={[Pagination, EffectCoverflow]}
-        spaceBetween={20}
-        slidesPerView="auto"
-        pagination={{ clickable: true }}
         effect="coverflow"
-        grabCursor="true"
-        centeredSlides="true"
-        loop="true"
-        modifier={2.5}
+        grabCursor={true} // Remove quotes around true to make it a boolean
+        centeredSlides={true} // Remove quotes around true to make it a boolean
+        loop={true} // Remove quotes around true to make it a boolean
+        slidesPerView={"auto"}
         coverflowEffect={{
           rotate: 0,
           stretch: 100,
-          depth: 300,
+          depth: 100,
+          modifier: 2.5,
         }}
+        pagination={pagination} // Pass pagination as a prop
+        navigation={navigation} // Pass navigation as a prop
+        modules={[Pagination, Navigation, EffectCoverflow]}
+        spaceBetween={20}
         breakpoints={{
           700: {
             spaceBetween: 0,
@@ -51,19 +47,27 @@ export default function Slider3d() {
           },
         }}
       >
-        <SwiperSlide>
-          <img src={pic1} alt="pic1" className="d-block image-fluid" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={pic2} alt="pic2" className=" d-block image-fluid" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={pic3} alt="pic3" className="d-block image-fluid" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={pic4} alt="pic4" className=" d-block image-fluid" />
-        </SwiperSlide>
+        {images.map((image, index) => (
+          <SwiperSlide key={index}>
+            <img
+              src={image.src}
+              alt={image.alt}
+              className="d-block image-fluid"
+            />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );
 }
+
+Slider3d.propTypes = {
+  images: PropTypes.arrayOf(
+    PropTypes.shape({
+      src: PropTypes.string.isRequired,
+      alt: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+  navigation: PropTypes.bool,
+  pagination: PropTypes.bool,
+};

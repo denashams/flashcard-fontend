@@ -28,6 +28,9 @@ section {
   .contentcard p {
     text-align: right;
   }
+  .flashcard p {
+    direction: rtl;
+  }
   
   .squares-container {
     display: flex;

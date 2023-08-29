@@ -4,8 +4,21 @@ import Slider from "../../../../components/header-slider/Slider";
 import Slider3d from "../../../../components/slider3d/Slider3d";
 import MobileNav from "../../../../components/mobile-navbar/MobileNav";
 import AudioCard from "../../../../components/audio-card/AudioCard";
+import pic1 from "../../../../assets/flashcards/1.jpg";
+import pic2 from "../../../../assets/flashcards/2.jpg";
+import pic3 from "../../../../assets/flashcards/3.jpg";
+import pic4 from "../../../../assets/flashcards/4.jpg";
+import pic5 from "../../../../assets/flashcards/5.jpg";
 
 import "./DarsafzaarHome.css";
+
+const images = [
+  { src: pic1, alt: "Image 1" },
+  { src: pic2, alt: "Image 2" },
+  { src: pic3, alt: "Image 3" },
+  { src: pic4, alt: "Image 4" },
+  { src: pic5, alt: "Image 5" },
+];
 
 export default function DarsafzaarHome() {
   return (
@@ -65,10 +78,10 @@ export default function DarsafzaarHome() {
           </div>
         </section>
         <div>
-          <section id="imagecard">
+          <section id="imagecard" className="flashcard">
             <div className=" mt-5 container">
               <h2 className="mb-4 text-center">یادبرگ</h2>
-              <p className="mb-5 text-center">
+              <p className="mb-5 text-center ">
                 خدمات ما در بخش یادبرگ شامل طیفی از موضوعات مربوط به تاریخ
                 معماری؛ منظر و شهر سازی است که مبتنی بر محتوای تصویری هستند. یاد
                 برگ کارتی است؛ مانند یک بازی که مطالب در دو طرف آن نوشته شده و
@@ -78,19 +91,17 @@ export default function DarsafzaarHome() {
             </div>
 
             <div className="mt-5 mb-5">
-              <Slider3d />
+              <Slider3d images={images}  pagination={true}  />
             </div>
             <button className="button-oulined mx-auto mt-4">
-              <NavLink to="/coming-soon">اطلاعات بیشتر و ورود</NavLink>
+              <NavLink to="/image-card-home">اطلاعات بیشتر و ورود</NavLink>
             </button>
           </section>
         </div>
         <section id="podcast">
           <div className="container">
             <h2 className="mt-5 mb-4 text-center">پادکست</h2>
-            <p>
-              
-            </p>
+            <p></p>
             <div className="mt-5">
               <AudioCard />
             </div>

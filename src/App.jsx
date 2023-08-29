@@ -15,6 +15,7 @@ import Login from "./pages/login/Login";
 import DarsafzaarHome from "./pages/projects/darsafzaar/darsafzaar-home/DarsafzaarHome";
 import DarsafzaarGuide from "./pages/projects/darsafzaar/darsafzaar-guide/DarsafzaarGuide";
 import ComingSoon from "./pages/coming-soon/ComingSoon";
+import ImageCardsHome from "./pages/projects/darsafzaar/darsafzaar-imagecards/ImageCardsHome";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,11 +23,11 @@ const router = createBrowserRouter(
       <Route path="/" element={<Landing />} />
       <Route path="login" element={<Login />} />
       <Route path="coming-soon" element={<ComingSoon />} />
+        <Route path="image-card-home" element={<ImageCardsHome />} />
 
       <Route element={<DarsafzaarLayout />}>
         <Route path="darsafzaar-home" element={<DarsafzaarHome />} />
         <Route path="darsafzaar-guide" element={<DarsafzaarGuide />} />
-        <Route path="darsafzaar-home" element={<DarsafzaarHome />} />
         <Route path="darsafzaar-home" element={<DarsafzaarHome />} />
         
       </Route>
