@@ -86,6 +86,7 @@ export default function SwiperCard({ navigation, pagination }) {
                 variant="top"
                 src={card.imageUrl}
                 className="img-fluid"
+                loading="lazy"
               />
               <Card.Body>
                 <Card.Title>{card.title}</Card.Title>

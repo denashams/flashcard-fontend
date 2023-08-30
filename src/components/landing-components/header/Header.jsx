@@ -18,7 +18,7 @@ const Header = () => {
         </button>
         {/* <HeaderSocials /> */}
         <div className="main-image">
-          <img src={logoWhite} alt="matn avis logo" />
+          <img src={logoWhite} alt="matn avis logo"  />
         </div>
       </div>
     </header>

@@ -52,7 +52,7 @@ export default function Slider3d({ images, navigation, pagination }) {
             <img
               src={image.src}
               alt={image.alt}
-              className="d-block image-fluid"
+              className="d-block image-fluid" loading="lazy"
             />
           </SwiperSlide>
         ))}

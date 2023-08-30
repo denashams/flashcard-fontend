@@ -84,7 +84,7 @@ const Projects = () => {
                   {info === key ? (
                     <div className="project-summary">
                       <div className="project-image">
-                      <img src={img} key={key} alt="" />
+                      <img src={img} key={key} alt="" loading="lazy" />
                       </div>
                       <div className="summary-box ">
                         <h2>{title}</h2>

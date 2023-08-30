@@ -21,21 +21,21 @@ const About = () => {
               <div className="team-images">
                 <div class="flip-3d">
                   <figure>
-                    <img src={razavi} alt="Niloofar Razavi" />
+                    <img src={razavi} alt="Niloofar Razavi" loading="lazy"/>
                     <figcaption>نیلوفر رضوی</figcaption>
                   </figure>
                 </div>
 
                 <div class="flip-3d">
                   <figure>
-                    <img src={vosouq} alt="Elahe Vosouq" />
+                    <img src={vosouq} alt="Elahe Vosouq" loading="lazy" />
                     <figcaption>الهه وثوق</figcaption>
                   </figure>
                 </div>
 
                 <div class="flip-3d">
                   <figure>
-                    <img src={shamsizadeh} alt="Dena Shamsizadeh" />
+                    <img src={shamsizadeh} alt="Dena Shamsizadeh"loading="lazy" />
                     <figcaption>دنا شمسی‌زاده</figcaption>
                   </figure>
                 </div>
@@ -43,19 +43,19 @@ const About = () => {
               <div className="team-images">
                 <div class="flip-3d">
                   <figure>
-                    <img src={sinaiyan} alt="Paria Sinaiyan" />
+                    <img src={sinaiyan} alt="Paria Sinaiyan" loading="lazy" />
                     <figcaption>پریا سینائیان</figcaption>
                   </figure>
                 </div>
                 <div class="flip-3d">
                   <figure>
-                    <img src={mirmohamadi} alt="Nina Mirmohammadi" />
+                    <img src={mirmohamadi} alt="Nina Mirmohammadi" loading="lazy" />
                     <figcaption>نینا میرمحمدی</figcaption>
                   </figure>
                 </div>
                 <div class="flip-3d">
                   <figure>
-                    <img src={baqeri} alt="Mahsa Baqeri" />
+                    <img src={baqeri} alt="Mahsa Baqeri" loading="lazy"/>
                     <figcaption>مهسا باقری</figcaption>
                   </figure>
                 </div>

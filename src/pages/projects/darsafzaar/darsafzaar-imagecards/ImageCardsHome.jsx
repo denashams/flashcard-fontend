@@ -83,7 +83,7 @@ function ImageCards() {
               {cardData.map((card, index) => (
                 <div key={index} className="col-md-2">
                   <Card style={{ width: "9rem" }} className="border-0 rounded">
-                    <Card.Img variant="top" src={card.imgSrc} />
+                    <Card.Img variant="top" src={card.imgSrc} loading="lazy"/>
                     <Card.Body>
                       <Card.Title>{card.title}</Card.Title>
                       {/* <Button variant="primary">Go somewhere</Button> */}

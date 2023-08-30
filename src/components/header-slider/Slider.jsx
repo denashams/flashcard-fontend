@@ -11,14 +11,14 @@ export default function Slider() {
     <div className="header-slider-container">
       <Carousel fade >
         <Carousel.Item>
-          <img className="image-fluid" src={image1} alt="First slide" />
+          <img className="image-fluid" src={image1} alt="First slide" loading="lazy" />
           <Carousel.Caption>
             <h3>عنوان اسلاید اول</h3>
             <p> متن اسلاید اول-متن اسلاید اول-متن اسلاید اول</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src={image2} alt="Second slide"className="image-fluid" />
+          <img src={image2} alt="Second slide"className="image-fluid" loading="lazy" />
 
           <Carousel.Caption>
             <h3>عنوان اسلاید دوم</h3>
@@ -26,7 +26,7 @@ export default function Slider() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src={image3} alt="Third slide" className="image-fluid" />
+          <img src={image3} alt="Third slide" className="image-fluid" loading="lazy" />
 
           <Carousel.Caption>
             <h3>عنوان اسلاید سوم</h3>
