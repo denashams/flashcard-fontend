@@ -17,12 +17,14 @@ import DarsafzaarGuide from "./pages/projects/darsafzaar/darsafzaar-guide/Darsaf
 import ComingSoon from "./pages/coming-soon/ComingSoon";
 import ImageCardsHome from "./pages/projects/darsafzaar/darsafzaar-imagecards/ImageCardsHome";
 
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<RootLayout />}>
       <Route path="/" element={<Landing />} />
       <Route path="login" element={<Login />} />
       <Route path="coming-soon" element={<ComingSoon />} />
+
         <Route path="image-card-home" element={<ImageCardsHome />} />
 
       <Route element={<DarsafzaarLayout />}>
