@@ -12,7 +12,7 @@ const Contact = () => {
           <h2>تماس با ما</h2>
           <div>
             <div className="row">
-              <div className="col-7 message-box">
+              <div className="col-lg-7 message-box">
                 <form action="">
                   <input
                     className="input-box"
@@ -40,7 +40,7 @@ const Contact = () => {
                   </button>
                 </form>
               </div>
-              <div className="col-5 contact-options">
+              <div className="col-lg-5 contact-options">
                 <div className="contact-optionBox">
                   <div className="contact-address">
                     تهران، ولنجک، میدان شهید شهریاری، بلوار دانشجو، دانشگاه شهید بهشتی، دانشکدهٔ معماری و شهرسازی، مرکز نوآوری

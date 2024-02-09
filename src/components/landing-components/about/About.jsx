@@ -17,7 +17,7 @@ const About = () => {
       <div className="about-container">
         <div className="container">
           <div className="row ">
-            <div className="col ">
+            <div className="col-lg-6 ">
               <div className="team-images">
                 <div class="flip-3d">
                   <figure>
@@ -64,7 +64,7 @@ const About = () => {
               </div>
              
             </div>
-            <div className="col about-description">
+            <div className="col-lg-6 about-description">
               <h2>دربارهٔ ما</h2>
               <p>
                 مان تحقیق و نظر آویس (متن آویس)، از سال ۱۴۰۱ با هدف سازماندهی و

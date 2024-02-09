@@ -77,7 +77,7 @@ const Projects = () => {
     <section id="projects">
       <div className="projects-container">
         <div className="row">
-          <div className="col-4   ">
+          <div className="col-lg-4   ">
             {data.map(({ title, text, key, img }) => {
               return (
                 <>
@@ -97,9 +97,9 @@ const Projects = () => {
               );
             })}
           </div>
-          <div className="col-8 pt-5 ps-5">
+          <div className="col-lg-8 pt-5 ps-5">
             <div className="row row-container">
-              <div className="col-4 ">
+              <div className="col-lg-4 ">
                 <div className="single-project  ">
                   <span className="project-icon">
                     <BiNetworkChart />
@@ -118,7 +118,7 @@ const Projects = () => {
                   </button>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-lg-4">
                 <div className="single-project  ">
                   <span className="project-icon">
                     <TbBinaryTree />
@@ -137,7 +137,7 @@ const Projects = () => {
                   </button>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-lg-4">
                 <div className="single-project border-0">
                   <span className="project-icon">
                     <IoIosGitNetwork />
@@ -158,7 +158,7 @@ const Projects = () => {
               </div>
             </div>
             <div className="row row-container border-0">
-              <div className="col-4 ">
+              <div className="col-lg-4 ">
                 <div className="single-project  ">
                   <span className="project-icon">
                     <FaChalkboardTeacher />
@@ -177,7 +177,7 @@ const Projects = () => {
                   </button>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-lg-4">
                 <div className="single-project  ">
                   <span className="project-icon">
                     <BsReverseListColumnsReverse />
@@ -197,7 +197,7 @@ const Projects = () => {
                   </button>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-lg-4">
                 <div className="single-project border-0">
                   <span className="project-icon">
                     <SlNotebook />

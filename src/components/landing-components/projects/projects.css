@@ -5,7 +5,6 @@
 }
 .project-image {
   width: auto;
-
 }
 .project-summary img {
   width: 100%;
@@ -30,7 +29,6 @@
   color: var(--color-primary-dark);
   font-weight: 600;
   font-size: 20px;
-
 }
 .summary-box p {
   color: black;
@@ -70,4 +68,41 @@
   display: block;
   font-size: 36px;
   margin-bottom: 10px;
+}
+@media only screen and (max-width: 1024px) {
+  .projects-container {
+    padding: 20px;
+  }
+
+  .row-container {
+    flex-direction: column;
+  }
+
+  .single-project {
+    width: 100%;
+    border: none;
+  }
+
+  .project-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+ 
+  .summary-box {
+    padding: 20px 70px;
+  }
+  .summary-box h2 {
+    font-size: 16px;
+  }
+  .summary-box p {
+    font-size: 14px;
+  }
+  .single-project button {
+    margin: 10px;
+    font-size: 14px;
+
+  }
 }

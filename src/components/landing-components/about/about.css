@@ -88,3 +88,24 @@
   border-radius: 14px;
   padding: 30px 45px;
 } */
+@media screen and (max-width: 1024px) {
+
+  .about-container {
+    padding: 0;
+  }
+  .about-container h2 {
+    text-align: center;
+  }
+  .about-container .container {
+  padding: 0;
+  width: 85%;
+  }
+}
+@media screen and (max-width: 768px) {
+ .team-images {
+  flex-direction: none;
+
+ }
+  
+  
+} 
