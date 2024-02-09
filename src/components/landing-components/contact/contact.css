@@ -1,7 +1,7 @@
 .contact-container {
   background-color: var(--color-primary-dark);
   margin: 0 20px 20px 20px;
-  padding: 50px 0;
+  padding: 50px 20px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
 }
 .contact-container h2 {
@@ -78,14 +78,15 @@ textarea {
   resize: none;
   color: var(--color-white);
 }
+
 @media screen and (max-width: 1024px) {
-  .container.contact__container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
+  .input-box {max-width: 100%;}
+  .msg-btn {
+    max-width: 100%;
   }
-}
-@media screen and (max-width: 600px) {
-  .container.contact__container {
-    width: var(--container-width-sm);
-  }
-}
+ 
+ 
+
+   
+   
+ } 
