@@ -1,4 +1,4 @@
-import { React, useState, useRef } from "react";
+import { React, useState } from "react";
 import { NavLink } from "react-router-dom";
 
 import "./projects.css";
@@ -72,15 +72,9 @@ const data = [
 
 const Projects = () => {
   const [info, setInfo] = useState("1");
-  const projectsRef = useRef(null);
-  const scrollToProjects = () => {
-    if (projectsRef.current) {
-      projectsRef.current.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   return (
-    <section id="projects" ref={projectsRef}>
+    <section id="projects">
       <div className="projects-container">
         <div className="row">
           <div className="col-lg-4   ">
@@ -118,10 +112,9 @@ const Projects = () => {
                     className="summary-btn"
                     onClick={() => {
                       setInfo(data[1].key);
-                      scrollToProjects();
                     }}
                   >
-                    مختصری دربارهٔ پروژه
+                    مختصری درباهٔ پروژه
                   </button>
                 </div>
               </div>
@@ -138,10 +131,9 @@ const Projects = () => {
                     className="summary-btn"
                     onClick={() => {
                       setInfo(data[2].key);
-                      scrollToProjects();
                     }}
                   >
-                    مختصری دربارهٔ پروژه
+                    مختصری درباهٔ پروژه
                   </button>
                 </div>
               </div>
@@ -158,10 +150,9 @@ const Projects = () => {
                     className="summary-btn"
                     onClick={() => {
                       setInfo(data[3].key);
-                      scrollToProjects();
                     }}
                   >
-                    مختصری دربارهٔ پروژه
+                    مختصری درباهٔ پروژه
                   </button>
                 </div>
               </div>
@@ -177,16 +168,12 @@ const Projects = () => {
                     <NavLink to="coming-soon">ورود به صفحهٔ پروژه</NavLink>
                   </button>
                   <button
-                 
                     className="summary-btn"
-                    id="projects"
                     onClick={() => {
-                      
                       setInfo(data[4].key);
-                      scrollToProjects();
                     }}
                   >
-                    مختصری دربارهٔ پروژه
+                    مختصری درباهٔ پروژه
                   </button>
                 </div>
               </div>
@@ -204,10 +191,9 @@ const Projects = () => {
                     className="summary-btn"
                     onClick={() => {
                       setInfo(data[5].key);
-                      scrollToProjects();
                     }}
                   >
-                    مختصری دربارهٔ پروژه
+                    مختصری درباهٔ پروژه
                   </button>
                 </div>
               </div>
@@ -224,10 +210,9 @@ const Projects = () => {
                     className="summary-btn"
                     onClick={() => {
                       setInfo(data[6].key);
-                      scrollToProjects();
                     }}
                   >
-                    مختصری دربارهٔ پروژه
+                    مختصری درباهٔ پروژه
                   </button>
                 </div>
               </div>
