@@ -20,6 +20,9 @@ export default function NavigationBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
+          <Nav.Link as={NavLink} to="blogs">
+              یادداشت
+            </Nav.Link>
             <Nav.Link as={NavLink} to="coming-soon">
               پادکست
             </Nav.Link>

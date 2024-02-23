@@ -4,6 +4,7 @@ import {AiOutlineTwitter} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
 import "./Footer.css"
 
+
 export default function Footer() {
   return (
     <footer>
@@ -19,9 +20,9 @@ export default function Footer() {
       </li>
     </ul>
     <div className='footer-socials'>
-      <a href="https://instagram.com"><AiFillInstagram/></a>
-      <a href="https://twitter.com"><AiOutlineTwitter/></a>
-      <a href="https://linkedin.com"><AiFillLinkedin/></a>
+      <a target='blank' href="https://www.instagram.com/matn.avis?igsh=MTlsZzYxODY2N2FzaQ=="><AiFillInstagram/></a>
+      <a target='blank' href="https://twitter.com"><AiOutlineTwitter/></a>
+      <a target='blank' href="https://linkedin.com"><AiFillLinkedin/></a>
 
     </div>
     <div className="footer-copyright">
