@@ -11,7 +11,7 @@ const Header = () => {
         <h1>مان تحقیق و نظر آویس</h1>
         <h5>همراه شما در پژوهش</h5>
 
-        <button class="brochure-btn">
+        <button className="brochure-btn">
           <span>
             <NavLink to="coming-soon">دانلود بروشور</NavLink>
           </span>
