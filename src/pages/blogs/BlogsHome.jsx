@@ -12,6 +12,9 @@ const BlogsHome = () => {
       <h1>Blogs Home</h1>
       <h1>Blogs Home</h1>
       <h1>Blogs Home</h1>
+      <h1>Blogs Home۳</h1>
+
+
       <h1>Blogs Home</h1>
       <BlogHeader/>
    
