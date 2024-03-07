@@ -38,7 +38,21 @@ export default function Footer() {
       </div>
       <div>
         enamad
-        
+        <div>
+          <a
+            referrerpolicy="origin"
+            target="_blank" rel="noreferrer"
+            href="https://trustseal.enamad.ir/?id=348001&Code=KuKJRNUS0rCvVuOJvHe6OsWCY9wZ20Ud"
+          >
+            <img
+              referrerpolicy="origin"
+              src="https://trustseal.enamad.ir/logo.aspx?id=348001&Code=KuKJRNUS0rCvVuOJvHe6OsWCY9wZ20Ud"
+              alt=""
+              
+              Code="KuKJRNUS0rCvVuOJvHe6OsWCY9wZ20Ud"
+            />
+          </a>
+        </div>
       </div>
     </footer>
   );

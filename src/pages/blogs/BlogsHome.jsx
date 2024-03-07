@@ -1,6 +1,5 @@
 import { React } from "react";
 import "./BlogsHome.css";
-import BlogHeader from "../../components/BlogHeader";
 
 
 const BlogsHome = () => {
@@ -16,7 +15,6 @@ const BlogsHome = () => {
 
 
       <h1>Blogs Home</h1>
-      <BlogHeader/>
    
       
     </div>
