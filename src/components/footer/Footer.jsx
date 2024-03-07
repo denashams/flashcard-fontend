@@ -36,7 +36,24 @@ export default function Footer() {
       <div className="footer-copyright">
         <small>همه حقوق متعلق به شرکت مان تحقیق و نظر آویس است &copy;</small>
       </div>
-     <div>enamad</div>
+      <div>
+        enamad
+        <div>
+          <a
+            referrerpolicy="origin"
+            target="_blank" rel="noreferrer"
+            href="https://trustseal.enamad.ir/?id=348001&Code=KuKJRNUS0rCvVuOJvHe6OsWCY9wZ20Ud"
+          >
+            <img
+              referrerpolicy="origin"
+              src="https://trustseal.enamad.ir/logo.aspx?id=348001&Code=KuKJRNUS0rCvVuOJvHe6OsWCY9wZ20Ud"
+              alt=""
+              
+              Code="KuKJRNUS0rCvVuOJvHe6OsWCY9wZ20Ud"
+            />
+          </a>
+        </div>
+      </div>
     </footer>
   );
 }
